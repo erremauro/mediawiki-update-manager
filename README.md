@@ -13,6 +13,14 @@
 **UPDATE_LOG_FILE**: Specify which file should store the update logs.
 **NOTIFY_EMAIL**: Specify the email address that will receive notifications of new updates available.
 
+## Installation
+
+To install the cron job for running timed version check:
+
+```bash
+./install.sh
+```
+
 ## Version Check
 
 To manually check if there is a new MediaWiki version available run:

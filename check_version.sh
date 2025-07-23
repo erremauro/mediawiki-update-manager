@@ -1,7 +1,6 @@
 #!/bin/bash
 
-ENV_FILE=/opt/mediawiki_backup/.env
-source $ENV_FILE
+source .env
 
 # Trova l'ultimo ramo (es. 1.44)
 latest_branch=$(curl -s https://releases.wikimedia.org/mediawiki/ | \

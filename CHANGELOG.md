@@ -7,8 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### :rocket: Add
+- `install.sh` will configure and install the cronjob in crontab
 ### :pencil: Change
-### :bug: BugFix
+- absolute path to `.env` removed from `cron_check.sh` and `check_version.sh`. `install.sh` will inject the absolute path to `.env` in `cron_check.sh`.
 
 ## [0.0.1] 2025-07-23
 ### :rocket: Add

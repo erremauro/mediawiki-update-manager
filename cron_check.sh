@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Carica variabili da .env
-ENV_FILE=/opt/mediawiki_backup/.env
+ENV_FILE=/usr/local/bin/mediawiki-update-manager/.env
 source $ENV_FILE
 
 # Ottieni ultima versione disponibile
